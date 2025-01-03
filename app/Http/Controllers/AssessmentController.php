@@ -25,4 +25,20 @@ class AssessmentController extends Controller
     {
         return view('form-handling-question.advanced_pagetwo');
     }
+
+
+    public function dataManipulationQuestionBasic() 
+    {
+        return view('data-manipulation-question.basic');
+    }
+
+    public function dataManipulationQuestionIntermediate() 
+    {
+        return view('data-manipulation-question.intermediate');
+    }
+
+    public function dataManipulationQuestionAdvanced() 
+    {
+        return view('data-manipulation-question.advanced');
+    }
 }
